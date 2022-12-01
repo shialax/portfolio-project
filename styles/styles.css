@@ -5,6 +5,9 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
+img {
+  border-radius: 4px;
+}
 h1,
 h2,
 h3,
@@ -70,6 +73,20 @@ h2 {
   padding: 10px 60px 0;
 }
 
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  padding: 160px 0;
+  margin: 30px;
+}
 @media(max-width: 960px) {
   h1 {
     font-size: 45px;
@@ -83,5 +100,12 @@ h2 {
   }
   .hero {
     padding: 80px 20px;
+  }
+  p {
+    line-height: -1.7px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0px;
   }
 }
