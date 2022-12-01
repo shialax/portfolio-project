@@ -97,6 +97,39 @@ h2 {
 .content p { 
   font-size: 14px;
 }
+.logo {
+  max-width: 150px;
+}
+nav {
+  padding: 20px 0;
+
+}
+nav li {
+  display: inline;
+  line-height: 40px;
+  margin-left: 15px;
+  list-style: none;
+  
+  
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+
+}
+nav a:hover,
+nav li.active a 
+ {
+  color: var(--branding-color);
+}
+
+
 @media(max-width: 960px) {
   h1 {
     font-size: 45px;
@@ -117,5 +150,8 @@ h2 {
   .content {
     text-align: center;
     padding: 0px;
+  }
+  nav a {
+    font-size: 14px;
   }
 }
