@@ -66,6 +66,10 @@ h2 {
   border: 1px solid var(--branding-color);
 
 }
+
+h4 {
+  font-size: 48px;
+}
 .project-description {
   padding: 10px 60px 0;
 }
@@ -129,7 +133,48 @@ nav li.active a
   color: var(--branding-color);
 }
 
+footer {
+  margin: 60px 0;
+}
 
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: #272142;
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: #272142;
+  text-decoration: none;
+  background: var(--secondary-color);
+  padding: 15px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
+.contact-btn {
+  margin: 20px;
+}
 @media(max-width: 960px) {
   h1 {
     font-size: 45px;
@@ -140,6 +185,9 @@ nav li.active a
   }
   h2 {
     font-size: 44px;
+  }
+  h4 {
+    font-size: 18px;
   }
   .hero {
     padding: 80px 20px;
@@ -154,4 +202,6 @@ nav li.active a
   nav a {
     font-size: 14px;
   }
+
+ 
 }
