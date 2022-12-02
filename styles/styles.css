@@ -74,6 +74,7 @@ h3 {
   padding: 10px 60px 0;
 }
 
+
 .content-container h1 {
   font-size: 64px;
   line-height: 80px;
@@ -89,6 +90,7 @@ h3 {
   padding: 160px 0;
   margin: 30px;
   text-align: center;
+  
   
 }
 
@@ -175,6 +177,10 @@ footer .social-links a:hover {
 
 .contact-btn {
   margin: 20px;
+}
+
+.contact-page {
+  background-color: var(--secondary-color);
 }
 @media(max-width: 960px) {
   h1 {
